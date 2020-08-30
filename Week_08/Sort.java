@@ -1,4 +1,14 @@
-学习笔记
+package org.millet.algorithm.week_08;
+
+import java.util.Arrays;
+
+/**
+ * 排序
+ * Created by yutao
+ * Create date 2020/8/29 20:54
+ */
+public class Sort {
+
     /**
      * 冒泡排序法
      * @param arrays
@@ -128,3 +138,13 @@
         int temp = a[pivot]; a[pivot] = a[counter]; a[counter] = temp;
         return counter;
     }
+
+    public static void main(String[] args) {
+        Sort sort = new Sort();
+
+        int[] arrays = {5,2,3,6,1};
+        sort.quickSort(arrays, 2, 3);
+
+        System.out.println(Arrays.toString(arrays));
+    }
+}

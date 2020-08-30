@@ -1,5 +1,7 @@
 /**
  * 二分查找模板代码
+ *  
+ *  数组必须是排序过的
  */
 
  public int binarySearch(int[] array, int target) {

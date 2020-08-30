@@ -12,7 +12,7 @@
  */
 
  public List<List<Integer>> levelOrder(TreeNode root) {
-     if (root == null) Collections.isEmptyList();
+     if (root == null) Collections.emptyList();
 
      List<List<Integer>> resultList = new ArrayList<>();
      _levelOrder(TreeNode root, 0, resultList);
@@ -42,7 +42,7 @@
  */
 
  public List<Integer> largestValues(TreeNode root) {
-     if (root == null) return Collections.isEmptyList();
+     if (root == null) return Collections.emptyList();
 
      List<Integer> resultList = new ArrayList<>();
      

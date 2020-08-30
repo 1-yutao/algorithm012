@@ -8,7 +8,7 @@
      例子：二叉树的层序遍历
   */
  public List<List<Integer>> levelOrder(TreeNode root) {
-     if (root == null)  return Collections.isEmptyList();
+     if (root == null)  return Collections.emptyList();
 
      List<List<Integer>> resultList = new ArrayList<>();
      _levelOrder(root, 0, resultList);
@@ -37,7 +37,7 @@
     例子：二叉树每行中找出最大值
   */
 public List<Integer> largestValues(TreeNode root) {
-    if (root == null) return Collections.isEmptyList();
+    if (root == null) return Collections.emptyList();
 
     List<Integer> resultList = new ArrayList<>();
     Queue<TreeNode> queue = new LinkedList<>();
